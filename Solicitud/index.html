@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Solicitudes</title>
+    <link rel="icon" href="Logo-top.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="Logo.png" alt="">
+        </div>
+        <div class="usuario">
+            <div class="usuario-h3">
+                <h3>N.N</h3>
+                <h3>BackOffice</h3>
+            </div>
+            <ion-icon  class="iconos" name="person-circle-outline"></ion-icon>
+        </div>
+    </header>
+    <div class="salto">
+        <h2 class="text-2xl font-bold">Registro de Solicitudes Tecnicas</h2>
+    </div>
+    <div class="body-container">
+        <div class="container">
+            <form action="">
+                <div class="content">
+                    <div class="input-box">
+                        <label for="codigo">Codigo Solicitud:</label>
+                        <input type="text" placeholder="Digite el numero de la orden" required ></input>
+                    </div>
+                    <div class="input-box">
+                        <label for="fecha_asignacion">Fecha Asignacion:</label>
+                        <input type="date" id="fecha_asignacion" name="fecha_asignacion">
+                    </div>
+                    <div class="input-box">
+                        <label for="Deadline">Deadline:</label>
+                        <input type="date" id="Deadline" name="Deadline">
+                    </div>
+                    <p>Caracteristicas de la solicitud  <span class="linea-1"></span></p>
+                    <div class="input-box">
+                        <label for="Servicio">Servicio:</label>
+                        <input type="text" ></input>
+                    </div>
+                    <div class="input-box">
+                        <label for="Logica">Logica:</label>
+                        <input type="text" id="logica" name="Logica">
+                    </div>
+                    <div class="input-box">
+                        <label for="Descripcion_de_la_falla">Descripcion de la falla:</label>
+                        <input type="text" id="Descripcion_de_la_falla" name="Descripcion_de_la_falla">
+                    </div>
+                    <p>Informacion del cliente<span class="linea-2"></span></p>
+                    <div class="input-box">
+                        <label for="Localidad">Localidad:</label>
+                        <input type="text" placeholder="Ubicacion del cliente" id="Localidad" name="Localidad">
+                    </div>
+                    <div class="input-box">
+                        <label for="Telefono">Telefono:</label>
+                        <input type="text" placeholder="Contacto del cliente" id="Telefono" name="Telefono">
+                    </div>
+                    <div class="input-box">
+                        <label for="RUT">RUT:</label>
+                        <input type="text" placeholder="RUT" id="RUT" name="RUT">
+                    </div>
+                    <div class="input-box">
+                        <label for="CNC">CNC:</label>
+                        <input type="text" placeholder="CNC" id="CNC" name="CNC">
+                    </div>
+                    <div class="button-container">
+                        <button>Cancelar</button>
+                        <a href="/Clientes/index.html">Guardar y enviar</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
